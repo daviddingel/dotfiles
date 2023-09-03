@@ -10,6 +10,3 @@ alias dus='du -h --max-depth=1'
 if [ -f ~/.custom_aliases ]; then
     . ~/.custom_aliases
 fi
-if [ -f ~/.dotfiles_alias ]; then
-    . ~/.dotfiles_alias
-fi
