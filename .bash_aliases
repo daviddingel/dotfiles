@@ -6,3 +6,7 @@ alias cp='cp -r'
 alias nem='nohup nemo -t $(pwd) > /dev/null 2>&1'
 alias prettyjson='python -m json.tool'
 alias dus='du -h --max-depth=1'
+
+if [ -f ~/.custom_aliases ]; then
+    . ~/.custom_aliases
+fi
