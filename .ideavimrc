@@ -1,0 +1,51 @@
+source ~/.vimrc
+
+let mapleader=" "
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+"" Map \r to the Reformat Code action
+"map \r <Action>(ReformatCode)
+
+"" Map <leader>d to start debug
+"map <leader>d <Action>(Debug)
+
+"" Map \b to toggle the breakpoint on the current line
+"map \b <Action>(ToggleLineBreakpoint)
+
+
+" Find more examples here: https://jb.gg/share-ideavimrc
+set ideajoin
+
+
+"""BEGIN CUSTOM CONFIG"""
+
+" Remove empty line before/after (usage: ctrl+j/ctrl+k):
+noremap <C-j> :set paste<CR>mk:+g/\m^\s*$/d<CR>`k:set nopaste<CR>
+noremap <C-k> :set paste<CR>mk:-g/\m^\s*$/d<CR>`k:set nopaste<CR>
+noremap <A-j> :set paste<CR>mko<Esc>`k:set nopaste<CR>
+noremap <A-k> :set paste<CR>mkO<Esc>`k:set nopaste<CR>
+
+set surround
+set commentary
+set NERDTree
+
+
+let g:argtextobj_pairs="[:],(:),<:>"
+
+
+" ctrl+w = camelcase w, ctrl+e = camelcase e, ctrl+b = camelcase b
+map <C-w> [w
+map <C-e> ]w
+map <C-b> [b
+
+map <F3> :action IntroduceVariable<CR>
+
+" Useful commands:
+"EditorCompleteStatement
+"VimPluginToggle
+"EditorStartNewLineBefore
+"EditorCompleteStatement
