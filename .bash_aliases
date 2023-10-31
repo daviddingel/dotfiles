@@ -13,4 +13,4 @@ if [ -f ~/.custom_aliases ]; then
     . ~/.custom_aliases
 fi
 
-alias gd='git --git-dir=/home/david/.dotfiles.git/ --work-tree=$HOME'
+alias gd='git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
