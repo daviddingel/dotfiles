@@ -5,7 +5,7 @@ alias prettyjson='python -m json.tool'
 alias dus='du -h --max-depth=1'
 alias gis='git status'
 alias gip='git push'
-alias gic='git commit'
+alias gic='git commit -m'
 alias gia='git add'
 alias gid='git diff'
 
