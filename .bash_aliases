@@ -8,6 +8,8 @@ alias gip='git push'
 alias gic='git commit -m'
 alias gia='git add'
 alias gid='git diff'
+alias gir='git restore --staged'
+alias gil='git log --oneline'
 
 if [ -f ~/.custom_aliases ]; then
     . ~/.custom_aliases
