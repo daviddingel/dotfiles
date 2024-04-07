@@ -24,6 +24,7 @@ Plug 'tpope/vim-commentary'
 Plug 'mg979/vim-visual-multi'
 " Plug 'gaving/vim-textobj-argument'
 Plug 'vim-scripts/argtextobj.vim'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 :set smarttab
@@ -51,5 +52,7 @@ call plug#end()
 :set visualbell
 :set noerrorbells
 :set visualbell t_vb=
+
+:set updatetime=100
 
 " :colorscheme vividchalk
