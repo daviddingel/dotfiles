@@ -171,8 +171,12 @@ cdd (){
     cd $(dirname $1)
 }
 
-vimlink (){
+vimpath (){
     vim $(realpath $(which $1))
+}
+
+vimlink (){
+    vim $(realpath $1)
 }
 
 # export NVM_DIR="$HOME/.nvm"
