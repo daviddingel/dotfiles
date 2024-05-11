@@ -171,6 +171,10 @@ cdd (){
     cd $(dirname $1)
 }
 
+vimlink (){
+    vim $(readlink $(which $1))
+}
+
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
