@@ -11,8 +11,4 @@ alias gid='git diff'
 alias gir='git restore --staged'
 alias gil='git log --oneline'
 
-if [ -f ~/.custom_aliases ]; then
-    . ~/.custom_aliases
-fi
-
 alias gd='git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'

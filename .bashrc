@@ -182,3 +182,7 @@ vimlink (){
 export EDITOR='vim'
 export VISUAL='vim'
 set -o vi
+
+if [ -f ~/.custom_bashrc ]; then
+    . ~/.custom_bashrc
+fi
