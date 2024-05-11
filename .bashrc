@@ -172,7 +172,7 @@ cdd (){
 }
 
 vimlink (){
-    vim $(readlink $(which $1))
+    vim $(realpath $(which $1))
 }
 
 # export NVM_DIR="$HOME/.nvm"
