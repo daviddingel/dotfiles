@@ -3,3 +3,5 @@
 	email = david@dingel.eu
 [core]
 	autocrlf = input
+[pull]
+	rebase = true

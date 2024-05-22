@@ -55,4 +55,11 @@ call plug#end()
 
 :set updatetime=100
 
+:let g:xml_syntax_folding = 1
+:set foldmethod=syntax
+set foldlevel=99
+
+:set termwinsize=12x0   " Set terminal size
+:set mouse=a            " Enable mouse drag on window splits
+
 " :colorscheme vividchalk
