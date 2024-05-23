@@ -190,3 +190,5 @@ set -o vi
 if [ -f ~/.custom_bashrc ]; then
     . ~/.custom_bashrc
 fi
+
+export PS1="\[\e]0;\h: \w\a\]\[\033[01;34m\]\h\[\033[00m\]:\[\033[01;36m\]\w\n\[\033[00m\]\[\033[01;35m\]> \[\033[00m\]"
