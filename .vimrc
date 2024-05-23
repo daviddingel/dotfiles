@@ -46,6 +46,9 @@ call plug#end()
 " 	set undodir=~/.vim/.undo,~/tmp,/tmp
 " endif
 
+set background=dark
+exec "hi String guifg=#A6E3A1"
+
 :set wildmenu
 :set wildmode=list:full
 :set wildignore=*.swp,*.bak,*.pyc,*.class
