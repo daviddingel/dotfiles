@@ -133,6 +133,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+bind 'set mark-symlinked-directories on'
 
 
 #cd and ls in one command
