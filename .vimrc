@@ -64,5 +64,3 @@ set foldlevel=99
 
 :set termwinsize=12x0   " Set terminal size
 :set mouse=a            " Enable mouse drag on window splits
-
-" :colorscheme vividchalk
