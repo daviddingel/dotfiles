@@ -21,7 +21,7 @@ map Q gq
 set ideajoin
 
 
-"""BEGIN CUSTOM CONFIG"""
+" BEGIN CUSTOM CONFIG
 
 " Remove empty line before/after (usage: ctrl+j/ctrl+k):
 noremap <C-j> :set paste<CR>mk:+g/\m^\s*$/d<CR>`k:set nopaste<CR>
@@ -42,6 +42,7 @@ map <C-w> [w
 map <C-e> ]w
 map <C-b> [b
 
+" F3 -> ctrl+alt+v
 map <F3> :action IntroduceVariable<CR>
 
 " Useful commands:
