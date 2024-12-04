@@ -34,6 +34,9 @@ export HISTFILE=~/.bash_eternal_history
 # http://superuser.com/questions/20900/bash-history-loss
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
+# to Immediately read new history lines from other terminals (replace with line above, otherwise -a twice):
+# PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND"
+
 
 
 # check the window size after each command and, if necessary,

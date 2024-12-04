@@ -12,3 +12,7 @@ alias gir='git restore --staged'
 alias gil='git log --oneline'
 
 alias gd='git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
+
+alias copy-last-cmd="fc -ln -1 | awk '{\$1=\$1}1' | tr -d '\n' | xclip -sel clip"
+
+alias bt='bluetoothctl'
